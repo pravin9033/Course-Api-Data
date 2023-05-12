@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed May 10 23:03:26 CDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0188-08fa-6251-0000016a5a00 
+on database directory /Users/pravin/Documents/MyOffice/Spring Boot/Course-Api-Data/topicDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a 
+Loaded from file:/Users/pravin/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=20.0.1+9-29
+user.dir=/Users/pravin/Documents/MyOffice/Spring Boot/Course-Api-Data
+os.name=Mac OS X
+os.arch=aarch64
+os.version=13.0.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

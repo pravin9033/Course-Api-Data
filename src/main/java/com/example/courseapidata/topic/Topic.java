@@ -1,4 +1,4 @@
-package main.Topic;
+package com.example.courseapidata.topic;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

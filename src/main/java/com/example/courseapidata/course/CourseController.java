@@ -1,6 +1,6 @@
-package main.Course;
+package com.example.courseapidata.course;
 
-import main.Topic.Topic;
+import com.example.courseapidata.topic.Topic;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,10 +12,10 @@ public class CourseController {
     @Autowired
     private CourseService courseService;
 
-    @RequestMapping("/topics/{topicname}/courses")
+    @RequestMapping("/topics/{topicName}/courses")
     @CrossOrigin
-    public List<Course> getAllCourses(@PathVariable String name){
-        return courseService.getAllCourses(name);
+    public List<Course> getAllCourses(@PathVariable String topicName){
+        return courseService.getAllCourses(topicName);
     }
     @RequestMapping("/topics/{topicName}/courses/{name}")
     public Course getCourse(@PathVariable String name){

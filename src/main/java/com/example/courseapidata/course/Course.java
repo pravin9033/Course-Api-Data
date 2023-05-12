@@ -1,7 +1,7 @@
-package main.Course;
+package com.example.courseapidata.course;
 
 
-import main.Topic.Topic;
+import com.example.courseapidata.topic.Topic;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;

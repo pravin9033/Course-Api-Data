@@ -1,4 +1,4 @@
-package main.Course;
+package com.example.courseapidata.course;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -10,9 +10,7 @@ public class CourseService {
     @Autowired
     private CourseRepository courseRepository;
     public List<Course> getAllCourses(String topicName){
-        List<Course> courses = new ArrayList<>();
-        courseRepository.findByTopicname(topicName).forEach(courses::add);
-        return courses;
+        return new ArrayList<>(courseRepository.findByTopicName(topicName));
     }
     public Course getCourse(String name){
         return courseRepository.findById(name).orElse(null);
